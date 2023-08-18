@@ -1,0 +1,687 @@
+data=[{
+    "_id": "0x00124b0021b709ae",
+    "deviceId": "0x00124b0021b709ae",
+    "masterId": "",
+    "firmwareVersion": "2",
+    "deviceType": "KZES4P",
+    "deviceCategory": "KZES",
+    "deviceTypeName": "Keus_Zigbee_Embedded_Switch_4_Port",
+    "deviceTypeDisplayName": "Keus ES4P",
+    "manufacturerName": "Keus",
+    "isConfigured": true,
+    "isHidden": false,
+    "deviceRoom": "5xRbkAsQ99",
+    "deviceName": "CoF",
+    "lastUpdateTime": 1640774791345,
+    "lastUpdateUser": "System",
+    "lastUpdateSource": "SYS",
+    "lastUpdateBy": "+919999999999",
+    "deviceSection": "Default",
+    "deviceLocation": "wall",
+    "deviceParent": "",
+    "deviceControlType": "ZIGBEE",
+    "inGroup": false,
+    "deviceGroup": -1,
+    "groupRoom": "Home",
+    "deviceProperties": {
+        "outputPorts": [
+            {
+                "portId": 0,
+                "portState": 0,
+                "applianceId": "lkikvd",
+                "isInAppliance": true
+            },
+            {
+                "portId": 1,
+                "portState": 234,
+                "applianceId": "ZGao00",
+                "isInAppliance": true
+            },
+            {
+                "portId": 2,
+                "portState": 0,
+                "applianceId": "vJ4kc2",
+                "isInAppliance": true
+            },
+            {
+                "portId": 3,
+                "portState": 0,
+                "applianceId": "wyHWtb",
+                "isInAppliance": true
+            }
+        ],
+        "appliance": [
+            {
+                "applianceId": "lkikvd",
+                "iconType": 6,
+                "inGroup": false,
+                "groupId": 0,
+                "applianceName": "Work Lamp Cof",
+                "applianceType": 0,
+                "lastUpdatedTime": 1687235556101,
+                "lastUpdatedUser": "System",
+                "lastUpdatedSource": "MAN",
+                "lastUpdatedBy": "+919999999999",
+                "applianceProperties": {
+                    "portId": 0
+                },
+                "applianceState": {
+                    "switchState": 0
+                },
+                "defaultState": {
+                    "switchState": 0
+                }
+            },
+            {
+                "applianceId": "wyHWtb",
+                "iconType": 13,
+                "inGroup": false,
+                "groupId": 0,
+                "applianceName": "Geyserr Cof",
+                "applianceType": 0,
+                "lastUpdatedTime": 1687235556101,
+                "lastUpdatedUser": "System",
+                "lastUpdatedSource": "MAN",
+                "lastUpdatedBy": "+919999999999",
+                "applianceProperties": {
+                    "portId": 3
+                },
+                "applianceState": {
+                    "switchState": 0
+                },
+                "defaultState": {
+                    "switchState": 0
+                }
+            },
+            {
+                "applianceId": "vJ4kc2",
+                "iconType": 19,
+                "inGroup": false,
+                "groupId": 0,
+                "applianceName": "WW Cof",
+                "applianceType": 1,
+                "lastUpdatedTime": 1687235556101,
+                "lastUpdatedUser": "System",
+                "lastUpdatedSource": "MAN",
+                "lastUpdatedBy": "+919999999999",
+                "applianceProperties": {
+                    "portId": 2,
+                    "defaultState": 255,
+                    "fadeTime": 4000,
+                    "minValue": 1,
+                    "maxValue": 255,
+                    "fadeDown": 4000,
+                    "fadeOff": 0
+                },
+                "applianceState": {
+                    "switchState": 0
+                },
+                "defaultState": {
+                    "switchState": 0
+                }
+            },
+            {
+                "applianceId": "ZGao00",
+                "iconType": 19,
+                "inGroup": false,
+                "groupId": 0,
+                "applianceName": "CW Cof",
+                "applianceType": 1,
+                "lastUpdatedTime": 1687235556101,
+                "lastUpdatedUser": "System",
+                "lastUpdatedSource": "MAN",
+                "lastUpdatedBy": "+919999999999",
+                "applianceProperties": {
+                    "portId": 1,
+                    "defaultState": 255,
+                    "fadeTime": 2000,
+                    "minValue": 1,
+                    "maxValue": 255,
+                    "fadeDown": 2000,
+                    "fadeOff": 2000
+                },
+                "applianceState": {
+                    "switchState": 0
+                },
+                "defaultState": {
+                    "switchState": 0
+                }
+            }
+        ],
+        "switch": [
+            {
+                "switchId": 0,
+                "switchName": "switch 1",
+                "switchType": 0,
+                "switchProperties": {
+                    "applianceId": "lkikvd"
+                }
+            },
+            {
+                "switchId": 1,
+                "switchName": "switch 2",
+                "switchType": 0,
+                "switchProperties": {
+                    "applianceId": "ZGao00"
+                }
+            },
+            {
+                "switchId": 2,
+                "switchName": "switch 3",
+                "switchType": 0,
+                "switchProperties": {
+                    "applianceId": "wyHWtb"
+                }
+            },
+            {
+                "switchId": 3,
+                "switchName": "switch 4",
+                "switchType": 0,
+                "switchProperties": {
+                    "applianceId": "vJ4kc2"
+                }
+            }
+        ],
+        "isAreaMaster": null
+    },
+    "markedForDelete": 0,
+    "__v": 0,
+    "fwInfo": {
+        "timeStamp": 1684917706375,
+        "hwVersion": "1.1",
+        "swVersion": "3.15",
+        "deviceName": "K_ES4_CoF",
+        "hgmSetting": 1,
+        "bleSetting": 0
+    },
+    "fwHealth": [
+        {
+            "fwHealth": {
+                "status": 0,
+                "timeFromBoot": 159888,
+                "lastResetCause": 0,
+                "restartCount": 308,
+                "props": [
+                    {
+                        "hwId": 2,
+                        "lastErrorCount": 0,
+                        "currentErrorCount": 0,
+                        "errorActionId": 1,
+                        "currErrCountFlag": 0,
+                        "lastErrCountFlag": 0
+                    },
+                    {
+                        "hwId": 6,
+                        "lastErrorCount": 0,
+                        "currentErrorCount": 3,
+                        "errorActionId": 0,
+                        "currErrCountFlag": 1,
+                        "lastErrCountFlag": 0
+                    }
+                ],
+                "restartCountErrorFlag": 0
+            },
+            "timeStamp": 1683031555155
+        },
+        {
+            "fwHealth": {
+                "status": 0,
+                "timeFromBoot": 160160,
+                "lastResetCause": 0,
+                "restartCount": 308,
+                "props": [
+                    {
+                        "hwId": 2,
+                        "lastErrorCount": 0,
+                        "currentErrorCount": 0,
+                        "errorActionId": 1,
+                        "currErrCountFlag": 0,
+                        "lastErrCountFlag": 0
+                    },
+                    {
+                        "hwId": 6,
+                        "lastErrorCount": 0,
+                        "currentErrorCount": 3,
+                        "errorActionId": 0,
+                        "currErrCountFlag": 1,
+                        "lastErrCountFlag": 0
+                    }
+                ],
+                "restartCountErrorFlag": 0
+            },
+            "timeStamp": 1683031827131
+        },
+        {
+            "fwHealth": {
+                "status": 0,
+                "timeFromBoot": 161180,
+                "lastResetCause": 0,
+                "restartCount": 308,
+                "props": [
+                    {
+                        "hwId": 2,
+                        "lastErrorCount": 0,
+                        "currentErrorCount": 0,
+                        "errorActionId": 1,
+                        "currErrCountFlag": 0,
+                        "lastErrCountFlag": 0
+                    },
+                    {
+                        "hwId": 6,
+                        "lastErrorCount": 0,
+                        "currentErrorCount": 3,
+                        "errorActionId": 0,
+                        "currErrCountFlag": 1,
+                        "lastErrCountFlag": 0
+                    }
+                ],
+                "restartCountErrorFlag": 0
+            },
+            "timeStamp": 1683032846699
+        },
+        {
+            "fwHealth": {
+                "status": 0,
+                "timeFromBoot": 161664,
+                "lastResetCause": 0,
+                "restartCount": 308,
+                "props": [
+                    {
+                        "hwId": 2,
+                        "lastErrorCount": 0,
+                        "currentErrorCount": 0,
+                        "errorActionId": 1,
+                        "currErrCountFlag": 0,
+                        "lastErrCountFlag": 0
+                    },
+                    {
+                        "hwId": 6,
+                        "lastErrorCount": 0,
+                        "currentErrorCount": 3,
+                        "errorActionId": 0,
+                        "currErrCountFlag": 1,
+                        "lastErrCountFlag": 0
+                    }
+                ],
+                "restartCountErrorFlag": 0
+            },
+            "timeStamp": 1683033331220
+        },
+        {
+            "fwHealth": {
+                "status": 0,
+                "timeFromBoot": 161845,
+                "lastResetCause": 0,
+                "restartCount": 308,
+                "props": [
+                    {
+                        "hwId": 2,
+                        "lastErrorCount": 0,
+                        "currentErrorCount": 0,
+                        "errorActionId": 1,
+                        "currErrCountFlag": 0,
+                        "lastErrCountFlag": 0
+                    },
+                    {
+                        "hwId": 6,
+                        "lastErrorCount": 0,
+                        "currentErrorCount": 3,
+                        "errorActionId": 0,
+                        "currErrCountFlag": 1,
+                        "lastErrCountFlag": 0
+                    }
+                ],
+                "restartCountErrorFlag": 0
+            },
+            "timeStamp": 1683033512196
+        }
+    ]
+},
+{
+    "_id": "0x00124b0021b70821",
+    "deviceId": "0x00124b0021b70821",
+    "masterId": "",
+    "firmwareVersion": "2",
+    "deviceType": "KZSC7C",
+    "deviceCategory": "KZSC",
+    "deviceName": "Conference",
+    "deviceTypeName": "Keus_Smart_Console_7_Channel",
+    "deviceTypeDisplayName": "Keus 7SC",
+    "manufacturerName": "Keus",
+    "isConfigured": true,
+    "isHidden": false,
+    "deviceRoom": "02zasqVv5W",
+    "deviceSection": "Default",
+    "deviceLocation": "Wall",
+    "deviceControlType": "ZIGBEE",
+    "deviceParent": "",
+    "inGroup": false,
+    "deviceGroup": -1,
+    "groupRoom": "Home",
+    "lastUpdateTime": 1640776147910,
+    "lastUpdateBy": "+919999999999",
+    "lastUpdateSource": "SYS",
+    "lastUpdateUser": "System",
+    "deviceProperties": {
+        "buttons": [
+            {
+                "buttonId": 0,
+                "buttonType": 3,
+                "buttonProperties": {
+                    "sceneId": 163,
+                    "roomId": "02zasqVv5W"
+                }
+            },
+            {
+                "buttonId": 1,
+                "buttonType": 3,
+                "buttonProperties": {
+                    "sceneId": 165,
+                    "roomId": "02zasqVv5W"
+                }
+            },
+            {
+                "buttonId": 2,
+                "buttonType": 3,
+                "buttonProperties": {
+                    "sceneId": 162,
+                    "roomId": "02zasqVv5W"
+                }
+            },
+            {
+                "buttonId": 3,
+                "buttonType": 3,
+                "buttonProperties": {
+                    "sceneId": 170,
+                    "roomId": "02zasqVv5W"
+                }
+            },
+            {
+                "buttonId": 4,
+                "buttonType": 3,
+                "buttonProperties": {
+                    "sceneId": 164,
+                    "roomId": "02zasqVv5W"
+                }
+            },
+            {
+                "buttonId": 5,
+                "buttonType": 3,
+                "buttonProperties": {
+                    "sceneId": 161,
+                    "roomId": "02zasqVv5W"
+                }
+            },
+            {
+                "buttonId": 6,
+                "buttonType": 8
+            },
+            {
+                "buttonId": 7,
+                "buttonType": 7
+            },
+            {
+                "buttonId": 8,
+                "buttonType": 9,
+                "buttonProperties": {
+                    "relayId": 0
+                }
+            },
+            {
+                "buttonId": 9,
+                "buttonType": 9,
+                "buttonProperties": {
+                    "relayId": 1
+                }
+            },
+            {
+                "buttonId": 10,
+                "buttonType": 2,
+                "buttonProperties": {
+                    "groupId": 26,
+                    "roomId": "02zasqVv5W"
+                }
+            },
+            {
+                "buttonId": 11,
+                "buttonType": 2,
+                "buttonProperties": {
+                    "groupId": 27,
+                    "roomId": "02zasqVv5W"
+                }
+            },
+            {
+                "buttonId": 12,
+                "buttonType": 2,
+                "buttonProperties": {
+                    "groupId": 28,
+                    "roomId": "02zasqVv5W"
+                }
+            },
+            {
+                "buttonId": 13,
+                "buttonType": 2,
+                "buttonProperties": {
+                    "groupId": 29,
+                    "roomId": "02zasqVv5W"
+                }
+            },
+            {
+                "buttonId": 14,
+                "buttonType": 6
+            },
+            {
+                "buttonId": 15,
+                "buttonType": 5
+            }
+        ],
+        "relays": [
+            {
+                "relayId": 0,
+                "relayName": "Left WW",
+                "relayState": 255,
+                "applianceType": 5,
+                "isHighPower": false,
+                "lastUpdateTime": 1687247271769,
+                "lastUpdateBy": "+919999999999",
+                "lastUpdateSource": "MAN",
+                "lastUpdateUser": "System"
+            },
+            {
+                "relayId": 1,
+                "relayName": "Socket",
+                "relayState": 255,
+                "applianceType": 11,
+                "isHighPower": false,
+                "lastUpdateTime": 1687247271769,
+                "lastUpdateBy": "+919999999999",
+                "lastUpdateSource": "MAN",
+                "lastUpdateUser": "System"
+            },
+            {
+                "relayId": 2,
+                "relayName": "Wall Washers",
+                "relayState": 255,
+                "applianceType": 1,
+                "isHighPower": false,
+                "lastUpdateTime": 1687170737327,
+                "lastUpdateBy": "+919999999999",
+                "lastUpdateSource": "MAN",
+                "lastUpdateUser": "System",
+                "isAssigned": false
+            },
+            {
+                "relayId": 3,
+                "relayName": "Right CW",
+                "relayState": 0,
+                "applianceType": 2,
+                "isHighPower": false,
+                "lastUpdateTime": 1687170737327,
+                "lastUpdateBy": "+919999999999",
+                "lastUpdateSource": "MAN",
+                "lastUpdateUser": "System",
+                "isAssigned": false
+            },
+            {
+                "relayId": 4,
+                "relayName": "Left CW",
+                "relayState": 0,
+                "applianceType": 2,
+                "isHighPower": false,
+                "lastUpdateTime": 1687170737327,
+                "lastUpdateBy": "+919999999999",
+                "lastUpdateSource": "MAN",
+                "lastUpdateUser": "System",
+                "isAssigned": false
+            },
+            {
+                "relayId": 5,
+                "relayName": "Right WW",
+                "relayState": 255,
+                "applianceType": 2,
+                "isHighPower": false,
+                "lastUpdateTime": 1687170737327,
+                "lastUpdateBy": "+919999999999",
+                "lastUpdateSource": "MAN",
+                "lastUpdateUser": "System",
+                "isAssigned": false
+            }
+        ],
+        "defaultFan": "",
+        "defaultSceneId": -1,
+        "defaultSceneRoom": null,
+        "sceneStepSize": 0,
+        "isAreaMaster": true,
+        "isDaliMaster": false,
+        "identifyStatus": false,
+        "interactionMode": 2
+    },
+    "deviceSyncInfo": {
+        "syncRequestId": "-",
+        "syncRequestTime": 1686737789988,
+        "syncRequestType": 1,
+        "syncStatus": 0,
+        "jobTypeName": 0,
+        "jobMessage": ""
+    },
+    "markedForDelete": 0,
+    "__v": 0,
+    "fwInfo": {
+        "timeStamp": 1675342710814,
+        "hwVersion": "1.1",
+        "swVersion": "2.40",
+        "deviceName": "K_SC7_Conf",
+        "hgmSetting": 0,
+        "bleSetting": 0
+    },
+    "fwHealth": [
+        {
+            "fwHealth": {
+                "status": 0,
+                "timeFromBoot": 239346,
+                "lastResetCause": 11,
+                "restartCount": 230,
+                "props": [
+                    {
+                        "hwId": 0,
+                        "lastErrorCount": 0,
+                        "currentErrorCount": 0,
+                        "errorActionId": 0,
+                        "currErrCountFlag": 0,
+                        "lastErrCountFlag": 0
+                    },
+                    {
+                        "hwId": 2,
+                        "lastErrorCount": 0,
+                        "currentErrorCount": 0,
+                        "errorActionId": 0,
+                        "currErrCountFlag": 0,
+                        "lastErrCountFlag": 0
+                    },
+                    {
+                        "hwId": 6,
+                        "lastErrorCount": 0,
+                        "currentErrorCount": 0,
+                        "errorActionId": 0,
+                        "currErrCountFlag": 0,
+                        "lastErrCountFlag": 0
+                    }
+                ],
+                "restartCountErrorFlag": 0
+            },
+            "timeStamp": 1675066630289
+        },
+        {
+            "fwHealth": {
+                "status": 0,
+                "timeFromBoot": 239346,
+                "lastResetCause": 11,
+                "restartCount": 230,
+                "props": [
+                    {
+                        "hwId": 0,
+                        "lastErrorCount": 0,
+                        "currentErrorCount": 0,
+                        "errorActionId": 0,
+                        "currErrCountFlag": 0,
+                        "lastErrCountFlag": 0
+                    },
+                    {
+                        "hwId": 2,
+                        "lastErrorCount": 0,
+                        "currentErrorCount": 0,
+                        "errorActionId": 0,
+                        "currErrCountFlag": 0,
+                        "lastErrCountFlag": 0
+                    },
+                    {
+                        "hwId": 6,
+                        "lastErrorCount": 0,
+                        "currentErrorCount": 0,
+                        "errorActionId": 0,
+                        "currErrCountFlag": 0,
+                        "lastErrCountFlag": 0
+                    }
+                ],
+                "restartCountErrorFlag": 0
+            },
+            "timeStamp": 1675066630289
+        },
+        {
+            "fwHealth": {
+                "status": 0,
+                "timeFromBoot": 239374,
+                "lastResetCause": 11,
+                "restartCount": 230,
+                "props": [
+                    {
+                        "hwId": 0,
+                        "lastErrorCount": 0,
+                        "currentErrorCount": 0,
+                        "errorActionId": 0,
+                        "currErrCountFlag": 0,
+                        "lastErrCountFlag": 0
+                    },
+                    {
+                        "hwId": 2,
+                        "lastErrorCount": 0,
+                        "currentErrorCount": 0,
+                        "errorActionId": 0,
+                        "currErrCountFlag": 0,
+                        "lastErrCountFlag": 0
+                    },
+                    {
+                        "hwId": 6,
+                        "lastErrorCount": 0,
+                        "currentErrorCount": 0,
+                        "errorActionId": 0,
+                        "currErrCountFlag": 0,
+                        "lastErrCountFlag": 0
+                    }
+                ],
+                "restartCountErrorFlag": 0
+            },
+            "timeStamp": 1675066658345
+        }
+    ]
+}]
